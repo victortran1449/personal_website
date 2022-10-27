@@ -1,15 +1,14 @@
 body {
   background-color: #e4faf4;
+  color: #272838;
 }
 h1 {
   color: #3b6bd2;
 }
 header {
   background-color: lightblue;
-  list-style-position: inside;
-  text-align: center;
 }
-.home-heading {
+#home-heading {
   font-family: "Montserrat", sans-serif;
 }
 .home-list {
@@ -19,4 +18,16 @@ header {
 }
 .home-list li {
   padding: 5px;
+}
+.home-body {
+  display: flex;
+  flex-direction: column;
+}
+.home-header {
+  text-align: center;
+
+}
+.home-footer {
+  background-color: lightblue;
+  text-align: center;
 }
