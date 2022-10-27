@@ -4,11 +4,19 @@ body {
 h1 {
   color: #3b6bd2;
 }
-nav {
+header {
   background-color: lightblue;
   list-style-position: inside;
   text-align: center;
 }
-#homepageheading {
+.home-heading {
   font-family: "Montserrat", sans-serif;
+}
+.home-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+.home-list li {
+  padding: 5px;
 }
