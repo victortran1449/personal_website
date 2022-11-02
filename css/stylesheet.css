@@ -18,12 +18,13 @@ h1 {
 #home-heading {
   font-family: "Montserrat", sans-serif;
 }
-.home-list {
+.list {
   display: flex;
   list-style-type: none;
   justify-content: center;
+  padding-left: 0px;
 }
-.home-list li {
+.list li {
   padding: 5px;
 }
 .about {
