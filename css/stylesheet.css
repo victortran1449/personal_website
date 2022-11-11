@@ -1,8 +1,6 @@
 body {
   background-color: #e4faf4;
   color: #272838;
-  display: flex;
-  flex-direction: column;
 }
 header {
   margin-top: 10px;
@@ -27,7 +25,6 @@ nav > ul {
   display: flex;
   list-style-type: none;
   justify-content: center;
-  padding-left: 0px;
 }
 .list > li {
   padding: 5px;
