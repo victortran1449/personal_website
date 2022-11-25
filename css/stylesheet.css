@@ -4,9 +4,8 @@ body {
 }
 header {
   margin-top: 10px;
-  background-color: lightblue;
-  text-align: center;
 }
+header,
 footer {
   background-color: lightblue;
   text-align: center;
@@ -64,10 +63,7 @@ nav > ul {
   .course-list > li:first-child {
     padding-bottom: 10px;
   }
-  .admin-desc {
-    border-bottom: black solid 1px;
-    padding-bottom: 20px;
-  }
+  .admin-desc,
   .web-desc {
     border-bottom: black solid 1px;
     padding-bottom: 20px;
